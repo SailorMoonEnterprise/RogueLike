@@ -16,7 +16,9 @@ add_executable(
     src/GameEngine/Utils/Utils.h
     src/GameEngine/Utils/Utils.cpp
     src/GameEngine/GameObject/GameObject.h
-    src/GameEngine/GameObject/GameObject.cpp)
+    src/GameEngine/GameObject/GameObject.cpp
+    src/GameEngine/Render/Window.h
+    src/GameEngine/Render/Window.cpp)
 
 target_link_libraries(main PRIVATE libtcod::libtcod)
 
